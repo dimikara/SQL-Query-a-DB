@@ -27,18 +27,26 @@ The project consists of the following:<br>
 
 
 
+## Business questions I chose
+
+* 
+
+* 
+
+* 
+
+* 
+
+
+
 ## <b>How to run the queries</b><br>
 
 
 To run the queries yourself, follow the instructions below:
 
-* Set-up the local environment
-
-The environment is pretty quick to set up. All you'll need to do here is...
-
 1. Download the Chinook database from the [GitHub](https://github.com/lerocha/chinook-database) site<br>
 
-2. Download the appropriate version of [DB Browser for SQLite](https://sqlitebrowser.org/dl/) for your computer setup<br>
+2. Download the appropriate version of [DB Browser for SQLite](https://sqlitebrowser.org/dl/), depending on your computer setup<br>
 
 3. Connect the Browser to the Database, following the below steps:<br>
     - Open up _DB Browser for SQLite_
