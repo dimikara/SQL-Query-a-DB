@@ -1,4 +1,4 @@
-# SQL- Query a Digital Music Store Database
+# Query a Digital Music Store Database (SQLite)
 
 ## <b>The Chinook Database - Introduction</b><br>
 
