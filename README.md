@@ -4,7 +4,7 @@
 
 In this project, I am querying the [Chinook Database](https://github.com/lerocha/chinook-database) which holds information about a music store. The goal is to assist the Chinook team with understanding the media in their store, their customers and employees, and their invoice information. 
 
-As a reference for the database & queries, the schema for the Chinook Database is provided below. There we can see the columns that link tables together via the arrows. This diagram is an <b>entity-relationship diagram (ERD)</b> and helps us visualize the data we are analyzing.
+As a reference for the database & queries, the schema for the Chinook Database is provided below. There we can see the columns that link tables together via the arrows. This diagram is known as an <b>entity-relationship diagram (ERD)</b>, shows us how data is structured in the database and helps us visualize the data we are analyzing.
 
 ![screen-shot-2017-06-29-at-10 51 15-pm](https://user-images.githubusercontent.com/8607482/188514105-7ae49ec6-abe8-4f56-93c2-26af6f3387ec.png)
 
