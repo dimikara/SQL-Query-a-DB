@@ -42,7 +42,7 @@ The project consists of the following:<br>
 
 * Extracting the data to Excel and create an appropriate visualization for each of the questions
 
-* Creating a Presentation file to share the findings. This file contains 4 slides, one for each of the business questions I am querying the database about.
+* Creating a [Presentation]() file to share the findings. This file contains 4 slides, one for each of the business questions I am querying the database about.
 
 
 
