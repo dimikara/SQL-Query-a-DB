@@ -1,12 +1,31 @@
 # Query a Digital Music Store Database (SQLite)
 
-## <b>The Chinook Database - Introduction</b><br>
+## <b>Introduction</b><br>
 
 In this project, I am querying the [Chinook Database](https://github.com/lerocha/chinook-database) which holds information about a music store. The goal is to assist the Chinook team with understanding the media in their store, their customers and employees, and their invoice information. 
 
+## <b>The Chinook Database</b><br>
+
 As a reference for the database & queries, the schema for the Chinook Database is provided below. There we can see the columns that link tables together via the arrows. This diagram is known as an <b>entity-relationship diagram (ERD)</b>, shows us how data is structured in the database and helps us visualize the data we are analyzing.
 
-![screen-shot-2017-06-29-at-10 51 15-pm](https://user-images.githubusercontent.com/8607482/188514105-7ae49ec6-abe8-4f56-93c2-26af6f3387ec.png)
+![Chinook Database Schema](https://user-images.githubusercontent.com/8607482/188514105-7ae49ec6-abe8-4f56-93c2-26af6f3387ec.png)
+
+The Chinook Database contains the following tables:
+
+| Table | Content |
+| :---: | :---: |
+| `Album` | List of tracks and Artist ID |
+| `Artist` | Artist ID and name |
+| `Customer` | Customer data |
+| `Employee` | Employee data |
+| `Genre` | For example, rock, blues, latin, etc. |
+| `Invoice` | Invoice data |
+| `Invoiceline` | Invoice item data per line |
+| `MediaType` | For example, MPEG or Protected AAC audio file |
+| `Playlist` | Playlist ID & name |
+| `PlaylistTrack` | Playlist & Track IDs |
+| `Track` | Song data |
+
 
 
 ## <b>Used Skills</b><br>
@@ -40,7 +59,6 @@ The project consists of the following:<br>
 
 
 ## <b>How to run the queries</b><br>
-
 
 To run the queries yourself, follow the instructions below:
 
