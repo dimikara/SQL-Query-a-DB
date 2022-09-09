@@ -18,7 +18,7 @@ The Chinook Database contains the following tables:
 | `Artist` | Artist ID and name |
 | `Customer` | Customer data |
 | `Employee` | Employee data |
-| `Genre` | For example, rock, blues, latin, etc. |
+| `Genre` | Music genre, for example, rock, blues, latin, etc. |
 | `Invoice` | Invoice data |
 | `Invoiceline` | Invoice item data per line |
 | `MediaType` | For example, MPEG or Protected AAC audio file |
