@@ -8,7 +8,7 @@ In this project, I am querying the [Chinook Database](https://github.com/lerocha
 
 As a reference for the database & queries, the schema for the Chinook Database is provided below. There we can see the columns that link tables together via the arrows. This diagram is known as an <b>entity-relationship diagram (ERD)</b>, shows us how data is structured in the database and helps us visualize the data we are analyzing.
 
-![Chinook Database Schema](https://user-images.githubusercontent.com/8607482/188514105-7ae49ec6-abe8-4f56-93c2-26af6f3387ec.png)
+![Chinook Database Schema](https://github.com/dimikara/SQL-Query-a-DB/blob/main/chinook_db_schema.png)
 
 The Chinook Database contains the following tables:
 
@@ -73,7 +73,7 @@ To run the queries yourself, follow the instructions below:
     - Click on the _Execute SQL_
     - Start querying your data
 
-![image](https://user-images.githubusercontent.com/8607482/188516423-1f85a14b-5de7-49e9-bc5d-9daa1e7561b7.png)
+![SQLite browser](https://github.com/dimikara/SQL-Query-a-DB/blob/main/SQLite_browser.JPG)
 
 
 _Note_
