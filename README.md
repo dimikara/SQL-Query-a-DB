@@ -71,7 +71,7 @@ To run the queries yourself, follow the instructions below:
     - Click on _Open Database_
     - Navigate to the _Chinook.db_ file in the folder where you saved it
     - Click on the _Execute SQL_
-    - Start querying your data
+    - Copy and paste the queries or write your own queries to query the data
 
 ![SQLite browser](https://github.com/dimikara/SQL-Query-a-DB/blob/main/SQLite_browser.JPG)
 
