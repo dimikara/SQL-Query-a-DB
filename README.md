@@ -76,9 +76,15 @@ To run the queries yourself, follow the instructions below:
 ![SQLite browser](https://github.com/dimikara/SQL-Query-a-DB/blob/main/SQLite_browser.JPG)
 
 
-_Note_
+_Note:_
 
 * Although here I am using the DB Browser for SQLite, there are many different SQL database browsers that can work with different types of databases.
 
+
+## References
+
+* [Chinook Database](https://github.com/lerocha/chinook-database)
+* [DB Browser for SQLite](https://sqlitebrowser.org/dl/)
+* [Online SQL fortmatting service](https://sqlformat.org/)
 
 __________________________________________
