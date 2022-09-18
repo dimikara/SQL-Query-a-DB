@@ -1,0 +1,82 @@
+QUERY 1
+-------
+
+WITH mediatype_revenue AS
+  (SELECT round(sum(InvoiceLine.UnitPrice * InvoiceLine.Quantity), 0) AS Revenue,
+          MediaType.Name AS "Media Type"
+   FROM Invoice
+   JOIN InvoiceLine ON InvoiceLine.InvoiceId = Invoice.InvoiceId
+   JOIN Track ON Track.TrackId = InvoiceLine.Trackid
+   JOIN MediaType ON Track.MediaTypeId = MediaType.MediaTypeId
+   GROUP BY MediaType.MediaTypeId)
+SELECT "Media Type",
+       Revenue
+FROM mediatype_revenue
+ORDER BY Revenue DESC;
+
+
+
+QUERY 2
+-------
+
+WITH genre_country AS
+  (SELECT COUNT(Invoice.InvoiceId) AS Purchases,
+          Customer.Country,
+          Genre.Name "Music Genre"
+   FROM Invoice
+   JOIN Customer ON Invoice.CustomerId = Customer.CustomerId
+   JOIN InvoiceLine ON InvoiceLine.Invoiceid = Invoice.InvoiceId
+   JOIN Track ON Track.TrackId = InvoiceLine.Trackid
+   JOIN Genre ON Track.GenreId = Genre.GenreId
+   GROUP BY Customer.Country,
+            "Music Genre"
+   ORDER BY Customer.Country,
+            Purchases DESC)
+SELECT genre_country.*
+FROM genre_country
+JOIN
+  (SELECT MAX(Purchases) AS maxPurchases,
+          Country,
+          "Music Genre"
+   FROM genre_country
+   GROUP BY Country) topGenre_country ON genre_country.Country = topGenre_country.Country
+WHERE genre_country.Purchases = topGenre_country.maxPurchases
+ORDER BY maxPurchases DESC;
+
+
+
+QUERY 3
+-------
+
+SELECT Artist.Name,
+       round(sum(InvoiceLine.UnitPrice * InvoiceLine.Quantity), 0) AS Revenue,
+       Genre.Name AS "Music Genre",
+       STRFTIME("%Y", Invoice.InvoiceDate) Year
+FROM Artist
+JOIN Album ON Artist.ArtistId = Album.ArtistId
+JOIN Track ON Track.AlbumId = Album.AlbumId
+JOIN InvoiceLine ON Track.TrackId = InvoiceLine.Trackid
+JOIN Invoice ON InvoiceLine.InvoiceId = Invoice.InvoiceId
+JOIN Genre ON Track.GenreId = Genre.GenreId
+WHERE Year = "2013"
+GROUP BY Artist.Name
+ORDER BY Revenue DESC
+LIMIT 10;
+
+
+
+QUERY 4
+-------
+
+SELECT STRFTIME("%Y", Invoice.InvoiceDate) Year,
+       round(sum(InvoiceLine.Quantity * InvoiceLine.UnitPrice), 0) Revenue,
+       Genre.Name AS "Music Genre"
+FROM Invoice
+JOIN InvoiceLine ON Invoice.InvoiceId = InvoiceLine.InvoiceId
+JOIN Track ON Track.TrackId = InvoiceLine.TrackId
+JOIN Genre ON Track.GenreId = Genre.GenreId
+WHERE "Music Genre" = "Rock"
+GROUP BY Year,
+         "Music Genre"
+ORDER BY Year
+
