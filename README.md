@@ -50,9 +50,9 @@ The project consists of the following:<br>
 
 * 1. How is Revenue split per Media Type?
 
-* 
+* 2. Which is the Music Genre that dominates in most countries?
 
-* 
+* 3. Which Artists appear in more than 10 Playlists?
 
 * 
 
