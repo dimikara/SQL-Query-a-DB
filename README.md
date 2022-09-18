@@ -52,9 +52,9 @@ The project consists of the following:<br>
 
 * 2. Which is the Music Genre that dominates in most countries?
 
-* 3. Which Artists appear in more than 10 Playlists?
+* 3. 
 
-* 
+* 4. How did the Revenue for “Rock” genre change during the period 2009-2013?
 
 
 
@@ -76,10 +76,10 @@ To run the queries yourself, follow the instructions below:
 ![SQLite browser](https://github.com/dimikara/SQL-Query-a-DB/blob/main/SQLite_browser.JPG)
 
 
-_Note:_
+_Notes:_
 
 * Although here I am using the DB Browser for SQLite, there are many different SQL database browsers that can work with different types of databases.
-
+* All graphs have been created in Google Sheets.
 
 ## References
 
