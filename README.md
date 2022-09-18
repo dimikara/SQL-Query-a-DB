@@ -52,7 +52,7 @@ The project consists of the following:<br>
 
 * 2. Which is the Music Genre that dominates in most countries?
 
-* 3. 
+* 3. Which are the top 10 Artists that earned the most on 2013?
 
 * 4. How did the Revenue for “Rock” genre change during the period 2009-2013?
 
