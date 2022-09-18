@@ -46,9 +46,9 @@ The project consists of the following:<br>
 
 
 
-## Business questions I chose
+## Business questions
 
-* 
+* 1. How is Revenue split per Media Type?
 
 * 
 
