@@ -42,7 +42,7 @@ The project consists of the following:<br>
 
 * Extracting the data to Excel and create an appropriate visualization for each of the questions
 
-* Creating a [Presentation]() file to share the findings. This file contains 4 slides, one for each of the business questions I am querying the database about.
+* Creating a [Presentation](https://github.com/dimikara/SQL-Query-a-DB/blob/6d6db8a262d8de9bbbbc65cdb11c7910830a936b/Presentation.pdf) file to share the findings. This file contains 5 slides for the business questions I am querying the database about.
 
 
 
@@ -79,7 +79,7 @@ To run the queries yourself, follow the instructions below:
 _Notes:_
 
 * Although here I am using the DB Browser for SQLite, there are many different SQL database browsers that can work with different types of databases.
-* All graphs have been created in Google Sheets.
+* All graphs were created in Google Sheets.
 
 ## References
 
