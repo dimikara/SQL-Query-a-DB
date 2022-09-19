@@ -42,7 +42,7 @@ The project consists of the following:<br>
 
 * Extracting the data to Excel and create an appropriate visualization for each of the questions
 
-* Creating a [Presentation](https://github.com/dimikara/SQL-Query-a-DB/blob/6d6db8a262d8de9bbbbc65cdb11c7910830a936b/Presentation.pdf) file to share the findings. This file contains 5 slides for the business questions I am querying the database about.
+* Creating a [Presentation](https://github.com/dimikara/SQL-Query-a-DB/blob/main/Presentation.pdf) file to share the findings. This file contains 5 slides for the business questions I am querying the database about.
 
 
 
