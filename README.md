@@ -6,7 +6,7 @@ In this project, I am querying the [Chinook Database](https://github.com/lerocha
 
 ## <b>The Chinook Database</b><br>
 
-As a reference for the database & queries, the schema for the Chinook Database is provided below. There we can see the columns that link tables together via the arrows. This diagram is known as an <b>entity-relationship diagram (ERD)</b>, shows us how data is structured in the database and helps us visualize the data we are analyzing.
+As a reference for the database & queries, the schema for the Chinook Database is provided below. There we can see the columns that link tables together via the arrows. This diagram is known as an <b>entity-relationship diagram (ERD)</b>, and shows us how data is structured in the database and helps us visualize the data we are analyzing.
 
 ![Chinook Database Schema](https://github.com/dimikara/SQL-Query-a-DB/blob/main/chinook_db_schema.png)
 
